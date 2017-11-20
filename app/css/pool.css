@@ -1,0 +1,312 @@
+body {
+  font-family: 'Titillium Web';
+  background: white; }
+  body header h1 {
+    margin-top: 29px;
+    float: left;
+    padding-left: 61px; }
+  body header form {
+    float: right;
+    padding-top: 26px;
+    padding-right: 55px; }
+    body header form label {
+      padding-right: 12px;
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 5px;
+      font-weight: 500;
+      color: #8d9da3;
+      font-size: 17px;
+      padding-top: 13px; }
+    body header form .selectboxit-container {
+      margin-bottom: 15px; }
+      body header form .selectboxit-container .selectboxit-options {
+        width: 460px; }
+      body header form .selectboxit-container .selectboxit {
+        width: 459.406px !important;
+        background: #0c69af;
+        border: 1px solid #0c69af;
+        padding: 9px 0px 41px 0px; }
+      body header form .selectboxit-container .selectboxit-text {
+        color: white;
+        font-size: 24px;
+        max-width: none !important;
+        width: 153px;
+        font-family: 'Titillium Web' !important; }
+      body header form .selectboxit-container .selectboxit-arrow-container {
+        background: #0c69af;
+        height: 33px; }
+        body header form .selectboxit-container .selectboxit-arrow-container .selectboxit-arrow {
+          margin: 0 auto;
+          position: absolute;
+          top: 55%;
+          right: 0;
+          left: 0;
+          border-top: 11px solid #fff;
+          border-right: 6px solid transparent;
+          border-left: 6px solid transparent; }
+        body header form .selectboxit-container .selectboxit-arrow-container .arrow-up {
+          position: absolute;
+          top: 6%;
+          left: 9px;
+          width: 11px;
+          height: 0px;
+          border-bottom: 11px solid white;
+          border-right: 6px solid transparent;
+          border-left: 6px solid transparent; }
+  body .container {
+    float: left;
+    border: 1px solid #ccc;
+    margin-left: 62px;
+    padding-right: 0;
+    text-align: center;
+    padding-left: 0; }
+    body .container .pages {
+      padding-left: 0;
+      padding-right: 0; }
+      body .container .pages .paging {
+        list-style: none;
+        overflow: hidden;
+        padding-left: 0;
+        font: 18px; }
+        body .container .pages .paging li {
+          float: left; }
+          body .container .pages .paging li .next-page {
+            color: #0e6bb0;
+            text-decoration: none;
+            padding: 5px 50px 2px 55px;
+            background: #d2d6d9;
+            font-size: 24px;
+            position: relative;
+            display: block;
+            float: left; }
+            body .container .pages .paging li .next-page .fa-stack-2x {
+              font-size: 42px;
+              color: white;
+              top: 9px;
+              left: 0px; }
+            body .container .pages .paging li .next-page .fa-stack-1x {
+              font-size: 26px;
+              top: -2px;
+              color: #0e6bae;
+              font-weight: bold; }
+            body .container .pages .paging li .next-page .fa-stack-1x:hover {
+              color: #efbf38; }
+          body .container .pages .paging li .next-page:after {
+            content: " ";
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-left: 30px solid #d2d6d9;
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            left: 99%;
+            z-index: 2; }
+          body .container .pages .paging li .next-page:hover {
+            background: #efbf38;
+            color: white; }
+          body .container .pages .paging li .next-page:hover:after {
+            border-left: 30px solid #efbf38; }
+          body .container .pages .paging li a::before {
+            content: " ";
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-left: 30px solid white;
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            margin-left: 1px;
+            left: 100%;
+            z-index: 1; }
+    body .container .info {
+      padding-left: 56px;
+      padding-right: 0;
+      padding-bottom: 15px; }
+      body .container .info form {
+        text-align: left; }
+        body .container .info form .data {
+          padding: 0; }
+          body .container .info form .data .info-heads {
+            padding: 0; }
+            body .container .info form .data .info-heads .tag {
+              color: #8d9da3;
+              font-weight: 500;
+              font-size: 19px;
+              padding-top: 9px;
+              padding-bottom: 27px; }
+            body .container .info form .data .info-heads .tag:after {
+              background: #ccc6c7;
+              border: none;
+              content: '';
+              display: block;
+              height: 1px;
+              left: 107%;
+              position: relative;
+              width: 85%;
+              margin-top: -12px; }
+          body .container .info form .data .info-data {
+            padding: 0; }
+            body .container .info form .data .info-data #pool-name {
+              border-radius: 5px;
+              border: 2px solid #2873b2;
+              padding: 8px;
+              padding-left: 10px;
+              padding-right: 363px;
+              margin-bottom: 15px;
+              font-size: 19px; }
+            body .container .info form .data .info-data .trade-date {
+              border-radius: 4px;
+              border: 2px solid #0e6aaf;
+              padding: 9px;
+              padding-left: 10px;
+              padding-right: 90px;
+              font-size: 15px;
+              font-weight: 500;
+              color: #0e6aaf; }
+            body .container .info form .data .info-data .input-group-addon {
+              background: #0e6bae;
+              width: -2px;
+              color: white; }
+            body .container .info form .data .info-data .fa {
+              color: #6ab52f;
+              font-size: 37px;
+              padding-left: -3px;
+              padding-top: 3px;
+              float: right;
+              padding-right: 33px;
+              cursor: pointer; }
+            body .container .info form .data .info-data .tooltiptext {
+              visibility: hidden;
+              width: 50px;
+              background-color: black;
+              color: #fff;
+              text-align: center;
+              border-radius: 6px;
+              padding: 2px;
+              position: absolute;
+              z-index: 1;
+              margin-left: 360px;
+              margin-top: 5px; }
+            body .container .info form .data .info-data .input-group {
+              width: 23%; }
+              body .container .info form .data .info-data .input-group .input-group-addon {
+                border: 1px solid #0e6bae;
+                background: #0e6bae;
+                width: -2px;
+                color: white; }
+            body .container .info form .data .info-data select {
+              margin-left: 139px; }
+            body .container .info form .data .info-data .selectboxit-container {
+              margin-bottom: 15px; }
+              body .container .info form .data .info-data .selectboxit-container .selectboxit {
+                background: white;
+                border: 2px solid #0c69af;
+                width: 229% !important;
+                height: 45px; }
+              body .container .info form .data .info-data .selectboxit-container .selectboxit-options {
+                width: 230%; }
+              body .container .info form .data .info-data .selectboxit-container .selectboxit-text {
+                color: #0c69af;
+                font-size: 20px;
+                padding-top: 5px;
+                padding-bottom: 98px;
+                max-width: none !important;
+                font-family: 'Titillium Web' !important; }
+              body .container .info form .data .info-data .selectboxit-container .selectboxit-arrow-container {
+                height: 45px !important;
+                background: #0c69af; }
+                body .container .info form .data .info-data .selectboxit-container .selectboxit-arrow-container .selectboxit-arrow {
+                  margin: 0 auto;
+                  position: absolute;
+                  top: 55%;
+                  right: 0;
+                  left: 0;
+                  border-top: 11px solid #fff;
+                  border-right: 6px solid transparent;
+                  border-left: 6px solid transparent; }
+                body .container .info form .data .info-data .selectboxit-container .selectboxit-arrow-container .arrow-up {
+                  position: absolute;
+                  top: 17%;
+                  left: 9px;
+                  width: 11px;
+                  height: 0px;
+                  border-bottom: 11px solid white;
+                  border-right: 6px solid transparent;
+                  border-left: 6px solid transparent; }
+            body .container .info form .data .info-data .onoffswitch {
+              position: relative;
+              width: 90px; }
+              body .container .info form .data .info-data .onoffswitch .onoffswitch-checkbox {
+                display: none; }
+              body .container .info form .data .info-data .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+                margin-left: 0; }
+              body .container .info form .data .info-data .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+                right: 0;
+                border: 1px solid #bdb5b5; }
+              body .container .info form .data .info-data .onoffswitch .onoffswitch-label {
+                display: block;
+                overflow: hidden;
+                cursor: pointer;
+                border-radius: 7px;
+                width: 76px;
+                height: 29px; }
+                body .container .info form .data .info-data .onoffswitch .onoffswitch-label .onoffswitch-inner {
+                  display: block;
+                  width: 200%;
+                  margin-left: -100%;
+                  transition: margin 0.3s ease-in 0s; }
+                body .container .info form .data .info-data .onoffswitch .onoffswitch-label .onoffswitch-inner:before, body .container .info form .data .info-data .onoffswitch .onoffswitch-label .onoffswitch-inner:after {
+                  display: block;
+                  float: left;
+                  width: 50%;
+                  height: 30px;
+                  padding: 0;
+                  line-height: 30px;
+                  font-size: 21px;
+                  color: white;
+                  font-weight: bold;
+                  box-sizing: border-box; }
+                body .container .info form .data .info-data .onoffswitch .onoffswitch-label .onoffswitch-inner:before {
+                  content: "Yes";
+                  padding-left: 10px;
+                  background-color: #0e6aaf;
+                  color: #FFFFFF; }
+                body .container .info form .data .info-data .onoffswitch .onoffswitch-label .onoffswitch-inner:after {
+                  content: "No";
+                  padding-right: 10px;
+                  background-color: #EEEEEE;
+                  color: white;
+                  text-align: right; }
+                body .container .info form .data .info-data .onoffswitch .onoffswitch-label .onoffswitch-switch {
+                  display: block;
+                  width: 31px;
+                  margin: 6px;
+                  background: #e5e5e5;
+                  position: absolute;
+                  top: -7px;
+                  bottom: 0;
+                  right: 56px;
+                  border-radius: 20px;
+                  transition: all 0.3s ease-in 0s;
+                  height: 30px; }
+        body .container .info form #team-page {
+          BACKGROUND: #68b42a;
+          border-radius: 3px;
+          border-width-color: #68b42a;
+          border-width: 1px;
+          padding: 11px 34px;
+          color: white;
+          font-size: 26px;
+          box-shadow: 1px 7px 1px #888888;
+          float: left;
+          margin-bottom: 40px;
+          margin-top: 33px; }
+          body .container .info form #team-page a {
+            color: white;
+            text-decoration: none; }

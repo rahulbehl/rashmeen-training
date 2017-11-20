@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pool Creator</title>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet"  href="css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet"  href="css/bootstrap-datetimepicker-standalone.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/pool.css">
+	
+	<link rel="stylesheet" href="css/jquery.selectBoxIt.css">
+
+	
+	
+</head>
+<body>
+	<header>
+		
+		<h1>POOL CREATOR</h1>
+		<form><label>POOL TYPE:</label>  <select>
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+		</select></form>
+
+		
+
+	</header>
+	<div class="container">
+		<div class="pages col-sm-12">
+			<ul class="paging">
+				<li><a class="next-page" href="pool.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x "></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">1</i>
+				</span>Setup</a></li>
+				<li><a class="next-page" href="team.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">2</i>
+				</span>Teams</a></li>
+				<li><a class="next-page" href="pool.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x "></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">3</i>
+				</span>Roster</a></li>
+				<li><a class="next-page" href="pool.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x "></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">4</i>
+				</span>Scoring</a></li>
+				<li><a  class="next-page" href="draft.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">5</i>
+				</span>Draft</a></li>
+				
+			</ul>
+
+		</div>
+		<div class="info col-sm-12">
+			<form action="team.html" method="get" >
+				<h2>POOL SETTINGS</h2>
+				<div class=" data col-sm-12">
+					<div class="info-heads col-sm-5">
+						<label class="tag" >Pool Name</label><br>
+						<label  class="tag">Pool Format</label><br>
+						<label  class="tag">Playoff Format</label><br>
+						<label  class="tag">Lock Eliminated Teams?</label> <br>
+						<label  class="tag">Maximum Number of Teams</label><br> 
+						<label  class="tag">League Start Week</label><br>
+						<label  class="tag">Minimum Goalie Appearances</label> <br>
+						<label  class="tag">Draft Order</label> <br></div>
+
+						<div class="info-data col-sm-7">
+							<input  id="pool-name" type="text" name="name" placeholder="Enter pool name..."><br>
+							<select id="head-category">
+								<option value="Head 2 Head - Categories(1)">Head 2 Head - Categories(1)</option>
+								<option value="Head 2 Head - Categories(2)">Head 2 Head - Categories(2)</option>
+								<option value="Head 2 Head - Categories(3)">Head 2 Head - Categories(3)</option>
+								<option value="Head 2 Head - Categories(4)">Head 2 Head - Categories(4)</option>
+							</select> <i class="fa fa-question-circle"></i>
+							<span class="tooltiptext">Tooltip</span><br>
+
+							<select id="play-format">
+								<option value="None">None</option>
+								<option value="saab">Saab</option>
+								<option value="mercedes">Mercedes</option>
+								<option value="audi">Audi</option>
+							</select><br>
+
+
+							<label class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+								<label class="onoffswitch-label" for="myonoffswitch">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</label><br>
+
+							<select id="max-teams">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select><br>
+
+							<select id="start-week">
+								<option value="1st Week">1st Week</option>
+								<option value="2nd Week">2nd Week</option>
+								<option value="3rd Week">3rd Week</option>
+								<option value="4th Week">4th Week</option>
+							</select><br>
+
+							<select id="min-goalie">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select><br>
+
+							<select id="draft-order">
+								<option value="snake">Snake</option>
+								<option value="saab">Saab</option>
+								<option value="mercedes">Mercedes</option>
+								<option value="audi">Audi</option>
+							</select><br>
+							</div></div>
+								<h2>ACQUISITION SETTINGS</h2><br>
+					
+						<div class=" data col-sm-12">
+							<div class="info-heads col-sm-5">
+								<label  class="tag">Max Acquisitions Per Team</label> <br>
+								<label  class="tag">Max Acquisitions Per Week</label><br> 
+								<label  class="tag">Max Trades Per Season</label><br>
+								<label  class="tag">Trade End Date</label> <br>
+								<label  class="tag">Allow Trading Draft Picks</label> <br>
+								<label  class="tag">Trade Reject Time</label><br> 
+								<label  class="tag">Waiver Mode</label> <br>
+								<label  class="tag">Waiver Time</label> </div>
+
+
+								<div class="info-data col-sm-7">
+
+									<select id="max-acquisitions-per-team">
+										<option value="No Maximum">No maximum</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select><br>
+
+									<select id="max-acquisitions-per-week">
+										<option value="6">6</option>
+										<option value="2">2</option>
+										<option value="5">5</option>
+									</select><br>
+
+									<select id="max-trades-per-season">
+										<option value="No Maximum">No maximum</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select><br>
+
+									<label class='input-group date' id='datetimepicker1'>
+										<input class="trade-date" type='text' class="form-control" />
+										<span class="input-group-addon">
+											<span class="glyphicon glyphicon-calendar"></span>
+										</span>
+									</label><br>
+
+
+									<label class="onoffswitch">
+										<input type="checkbox" name="onoffbutton" class="onoffswitch-checkbox" id="trade-myonoffswitch" checked>
+										<label class="onoffswitch-label" for="trade-myonoffswitch">
+											<span class="onoffswitch-inner"></span>
+											<span class="onoffswitch-switch"></span>
+										</label>
+									</label><br>
+
+
+									<select id="trade-reject-time">
+										<option value="2 Days">2 Days</option>
+										<option value="1 Day">1 Day</option>
+										<option value="3 Days">3 Days</option>
+										<option value="4 Days">4 Days</option>
+									</select><br>
+
+									<select id="waiver-mode">
+										<option value="Standard">Satndard</option>
+										<option value="Difficult">Difficult</option>
+										<option value="Easy">Easy</option>
+
+									</select><br>
+
+									<select id="waiver-time">
+										<option value="2 Days">2 Days</option>
+										<option value="1 Day">1 Day</option>
+										<option value="3 Days">3 Days</option>
+										<option value="4 Days">4 Days</option>
+									</select><br>
+								</div>
+							</div>
+							<button id="team-page" onclick="testJS();"><a>SAVE AND CONTINUE TO TEAMS <i class="fa fa-chevron-right"></i></a> </button>
+
+						</form>
+
+
+					</div>
+				</div>
+
+
+				<script src="js/jquery.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+
+				<script src="js/jquery-ui.js"></script>
+				<script src="js/jquery.selectBoxIt.min.js"></script>
+				<script src="js/bootstrap-datetimepicker.min.js"></script>
+				<script src="js/pool.js"></script>
+
+
+			</body>
+			</html>

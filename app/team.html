@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Creator</title>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet"  href="css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet"  href="css/bootstrap-datetimepicker-standalone.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/team.css">
+	
+	<link rel="stylesheet" href="css/jquery.selectBoxIt.css">
+
+	
+	
+</head>
+<body onload="myFunction()">
+	<header>
+		
+		<h1>POOL CREATOR</h1>
+		<form><label>POOL TYPE:</label>  <select class="abc">
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+		</select></form>
+
+		
+
+	</header>
+	<div class="container">
+		<div class="pages col-sm-12">
+			<ul class="paging">
+					<li><a class="next-page" href="pool.html" style="color:white;"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering"><i class="fa fa-check check1"></i></i>
+				</span>Setup</a></li>
+				<li><a class="next-page" href="team.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">2</i>
+				</span>Teams</a></li>
+				<li><a class="next-page" href="pool.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x "></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">3</i>
+				</span>Roster</a></li>
+				<li><a class="next-page" href="pool.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x "></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">4</i>
+				</span>Scoring</a></li>
+				<li><a  class="next-page" href="draft.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">5</i>
+				</span>Draft</a></li>
+				
+			</ul>
+
+		</div>
+		<h2>CREATE TEAMS</h2><br>
+		<h4 class="team-name-head">Team Name</h4>
+		<h4 class="email-head">Invitee Email Address</h4>
+
+
+		<div class="team-names col-sm-12">
+			<form action="draft.html"  id="myForm">
+
+
+
+				<ol>
+					<li  class="name1"><input class="pool-name" type="text" id="field1" name="name1" placeholder="Enter team name..."><br></li>
+					<li class="name2"><input  class="pool-name" type="text"  id="field2" name="name2" placeholder="Enter team name..."><br></li>
+					<li class="name3"><input class="pool-name" type="text" id="field3"  name="name3" placeholder="Enter team name..."><br></li>
+					<li class="name4"><input class="pool-name" type="text" id="field4"  name="name4" placeholder="Enter team name..."><br></li>
+					<li  class="name5" ><input class="pool-name" type="text" id="field5" name="name5" placeholder="Enter team name..."><br></li>
+					<li  class="name6"><input class="pool-name" type="text" id="field6" name="name6" placeholder="Enter team name..."><br></li>
+					<li  class="name7"><input class="pool-name" type="text" id="field7" name="name7" placeholder="Enter team name..."><br></li>
+					<li class="name8"><input class="pool-name" type="text"  id="field8" name="name8" placeholder="Enter team name..."><br></li>
+					<li class="name9"><input class="pool-name" type="text" id="field9" name="name9" placeholder="Enter team name..."><br></li>
+					<li class="name10"><input class="pool-name" type="text" id="field10"  name="name10" placeholder="Enter team name..."><br></li>
+					<li class="name11"><input class="pool-name" type="text" id="field11"  name="name11" placeholder="Enter team name..."><br></li>
+					<li class="name12"><input class="pool-name" type="text" id="field12" name="name12" placeholder="Enter team name..."><br></li>
+				</ol>
+
+				<ul>
+					<li class="email1"><input class="pool-name" type="text" id="e-field1" name="email1" placeholder="Enter email..."><br></li>
+					<li class="email2"><input class="pool-name" type="text" id="e-field2" name="email2" placeholder="Enter email......"><br></li>
+					<li class="email3"><input class="pool-name" type="text" id="e-field3" name="email3" placeholder="Enter email..."><br></li>
+					<li class="email4"><input class="pool-name" type="text"  id="e-field4" name="email4" placeholder="Enter email..."><br></li>
+					<li class="email5"><input class="pool-name" type="text" id="e-field5" name="email5" placeholder="Enter email..."><br></li>
+					<li class="email6"><input class="pool-name" type="text" id="e-field6" name="email6" placeholder="Enter email..."><br></li>
+					<li class="email7"><input class="pool-name" type="text" id="e-field7" name="email7" placeholder="Enter email..."><br></li>
+					<li class="email8"><input class="pool-name" type="text" id="e-field8" name="email8" placeholder="Enter email..."><br></li>
+					<li class="email9"><input class="pool-name" type="text" id="e-field9" name="email9" placeholder="Enter email..."><br></li>
+					<li class="email10"><input class="pool-name" type="text" id="e-field10" name="email10" placeholder="Enter email..."><br></li>
+					<li class="email11"><input class="pool-name" type="text" id="e-field11" name="email11" placeholder="Enter email..."><br></li>
+					<li  class="email12"><input class="pool-name" type="text" id="e-field12" name="email12" placeholder="Enter email..."><br></li>
+				</ul>
+				<button id="draft-page" onclick="testDraft();"><a>SAVE AND CONTINUE TO DRAFTS <i class="fa fa-chevron-right"></i></a></button>
+
+			</form>
+		</div>
+
+	</div>
+
+
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.selectBoxIt.min.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/pool.js"></script>
+</body>
+</html>
+
