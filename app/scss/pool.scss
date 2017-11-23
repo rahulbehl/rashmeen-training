@@ -1,0 +1,422 @@
+body{
+	font-family: 'Titillium Web';
+	background:white;
+	header{
+
+		h1{
+			margin-top: 29px;
+			float:left;
+			padding-left: 61px;
+		}
+		form{
+			float: right;
+			padding-top: 26px;
+			padding-right: 55px;
+			label{
+				padding-right: 12px;
+				display: inline-block;
+				max-width: 100%;
+				margin-bottom: 5px;
+				font-weight: 500;
+				color: #8d9da3;
+				font-size: 17px;
+				padding-top: 13px;
+			}
+			.selectboxit-container{					
+				margin-bottom: 15px;
+				.selectboxit-options{
+
+					width: 460px;
+
+				}
+				.selectboxit{
+					width: 459.406px !important;
+					background: #0c69af;
+					border: 1px solid #0c69af;
+					padding: 9px 0px 41px 0px;
+
+				}
+				.selectboxit-text{
+					color: white;
+
+					font-size: 24px;
+					max-width: none !important;
+					width: 153px ;
+					font-family: 'Titillium Web' !important;
+				}
+				.selectboxit-arrow-container{
+					background:#0c69af;
+					height:33px;
+					.selectboxit-arrow{
+						margin: 0 auto;
+						position: absolute;
+						top: 55%;
+						right: 0;
+						left: 0;
+						border-top: 11px solid #fff;
+						border-right: 6px solid transparent;
+						border-left: 6px solid transparent;
+					}
+					.arrow-up{
+						position: absolute;
+						top: 6%;
+						left: 9px;
+						width: 11px;
+						height: 0px;
+						border-bottom: 11px solid white;
+						border-right: 6px solid transparent;
+						border-left: 6px solid transparent;
+					}
+				}
+			}				
+		}
+	}
+	.container{
+		float: left;
+		border: 1px solid #ccc;
+		margin-left:62px;
+		padding-right: 0;
+		text-align: center;
+		padding-left: 0;
+		.pages{
+			padding-left: 0;
+			padding-right: 0;
+
+			.paging{ 
+				list-style: none; 
+				overflow: hidden; 
+				padding-left:0;
+				font: 18px ;
+				li { 
+					float: left; 
+					.next-page {
+						color: #0e6bb0;
+						text-decoration: none; 
+						padding: 5px 50px 2px 55px;
+						background: #d2d6d9;
+						font-size: 24px;
+						position: relative; 
+						display: block;
+						float: left;
+						.fa-stack-2x {
+							font-size: 42px;
+							color: white;
+							top: 9px;
+							left: 0px;
+						}
+						
+						.fa-stack-1x{
+							font-size: 26px;
+							top: -2px;
+							color: #0e6bae;
+							font-weight: bold;
+
+						}
+						.fa-stack-1x:hover{
+							color:#efbf38;
+						}
+					}
+					.next-page:after { 
+						content: " "; 
+						display: block; 
+						width: 0; 
+						height: 0;
+						border-top: 50px solid transparent; 
+						border-bottom: 50px solid transparent;
+						border-left: 30px solid #d2d6d9;
+						position: absolute;
+						top: 50%;
+						margin-top: -50px; 
+						left: 99%;
+						z-index: 2; 
+					}
+					.next-page:hover{
+						background:#efbf38;
+						color:white;
+					}
+							.next-page:hover:after{
+						 	border-left: 30px solid #efbf38;
+					}
+
+					
+
+					a::before { 
+						content: " "; 
+						display: block; 
+						width: 0; 
+						height: 0;
+						border-top: 50px solid transparent;       
+						border-bottom: 50px solid transparent;
+						border-left: 30px solid white;
+						position: absolute;
+						top: 50%;
+						margin-top: -50px; 
+						margin-left: 1px;
+						left: 100%;
+						z-index: 1; 
+					}
+				}
+			}
+		}
+		.info{
+			padding-left: 56px;
+			padding-right: 0;
+			padding-bottom: 15px;
+			form{
+				text-align: left;
+				.data{
+					padding:0;
+					.info-heads{
+						padding:0;
+						.tag{
+							color: #8d9da3;
+							font-weight: 500;
+							font-size: 19px;
+							padding-top: 9px;
+							padding-bottom: 27px;
+						}
+						.tag:after{
+							background: #ccc6c7;
+							border: none;
+							content: '';
+							display: block;
+							height: 1px;
+							left: 107%;
+							position: relative;
+							width: 85%;
+
+							margin-top: -12px;
+
+						}
+
+					}
+					.info-data{
+						padding:0;
+
+						#pool-name{
+							border-radius: 5px;
+							border: 2px solid #2873b2;
+							padding: 8px;
+							padding-left: 10px;
+							padding-right: 363px;
+							margin-bottom: 15px;
+							font-size: 19px;
+
+						}
+
+						.trade-date{
+							border-radius: 4px;
+							border: 2px solid #0e6aaf;
+							padding: 9px ;
+							padding-left:10px;
+							padding-right:90px;
+							font-size: 15px;
+							font-weight: 500;
+							color: #0e6aaf;
+
+						}
+						.input-group-addon {
+
+							background: #0e6bae;
+
+							width: -2px;
+							color: white;
+
+						}
+
+
+
+						.fa{
+							color: #6ab52f;
+							font-size: 37px;
+							padding-left: -3px;
+							padding-top: 3px;
+							float: right;
+							padding-right: 33px;
+							cursor: pointer;
+
+						}
+						.tooltiptext {
+							visibility: hidden;
+							width: 50px;
+							background-color: black;
+							color: #fff;
+							text-align: center;
+							border-radius: 6px;
+							padding: 2px ;
+							position: absolute;
+							z-index: 1;
+							margin-left:360px;
+							margin-top: 5px;
+
+
+
+						}
+
+
+
+						.input-group{
+							width: 23%;
+							.input-group-addon{
+								border: 1px solid #0e6bae;
+								background: #0e6bae;
+								width: -2px;
+								color: white;
+							}
+						}
+						select{
+							margin-left: 139px;
+						}
+						.selectboxit-container{				
+							margin-bottom: 15px;
+
+							.selectboxit{	
+
+								background: white;
+								border: 2px solid #0c69af;
+								width: 229%!important;
+
+								height: 45px;
+							}
+							.selectboxit-options{
+
+								width: 230% ;
+
+							}
+							.selectboxit-text{
+								color:#0c69af;
+								font-size: 20px;
+								padding-top: 5px;
+								padding-bottom: 98px;
+								max-width: none !important;
+								font-family: 'Titillium Web' !important;
+							}
+							.selectboxit-arrow-container{
+								height: 45px !important;
+								// width: 47px;
+								background: #0c69af;
+
+								.selectboxit-arrow{
+									margin: 0 auto;
+									position: absolute;
+									top: 55%;
+									right: 0;
+									left: 0;
+									border-top: 11px solid #fff;
+									border-right: 6px solid transparent;
+									border-left: 6px solid transparent;
+								}
+								.arrow-up{
+									position: absolute;
+									top: 17%;
+									left: 9px;
+									width: 11px;
+									height: 0px;
+									border-bottom: 11px solid white;
+									border-right: 6px solid transparent;
+									border-left: 6px solid transparent;
+								}
+							}
+						}	
+						.onoffswitch {					
+							position: relative; width: 90px;
+							.onoffswitch-checkbox {
+								display: none;
+							}
+							.onoffswitch-checkbox:checked{
+								+ .onoffswitch-label{
+									.onoffswitch-inner {
+										margin-left: 0;
+									}
+								}
+
+							}
+							.onoffswitch-checkbox:checked{
+								+ .onoffswitch-label{
+									.onoffswitch-switch {
+										right: 0;
+										border: 1px solid #bdb5b5;
+									}
+								}
+
+							}
+							.onoffswitch-label {
+								display: block;
+								overflow: hidden;
+								cursor: pointer;
+								border-radius: 7px;
+								width: 76px;
+								height: 29px;
+								.onoffswitch-inner {
+									display: block; width: 200%; margin-left: -100%;
+									transition: margin 0.3s ease-in 0s;
+								}
+								.onoffswitch-inner:before, .onoffswitch-inner:after {
+									display: block; 
+									float: left; 
+									width: 50%; 
+									height: 30px;
+									padding: 0;
+									line-height: 30px;
+									font-size: 21px; 
+									color:white; 
+									font-weight: bold;
+									box-sizing: border-box;
+								}
+								.onoffswitch-inner:before {
+									content: "Yes";
+									padding-left: 10px;
+									background-color: #0e6aaf;
+									color: #FFFFFF;
+								}
+								.onoffswitch-inner:after {
+									content: "No";
+									padding-right: 10px;
+									background-color: #EEEEEE;
+									color: white;
+									text-align: right;
+								}
+								.onoffswitch-switch {
+									display: block;
+									width: 31px;
+									margin: 6px;
+									background: #e5e5e5;
+									position: absolute;
+									top: -7px;
+									bottom: 0;
+									right: 56px;
+									border-radius: 20px;
+									transition: all 0.3s ease-in 0s;
+									height: 30px;
+								}
+							}
+						}	
+					}
+				}
+
+				#team-page{
+					BACKGROUND: #68b42a;
+					border-radius: 3px;
+					border-width-color: #68b42a;
+					border-width: 1px;
+					padding: 11px 34px;
+					color: white;
+					font-size: 26px;
+					box-shadow: 1px 7px 1px #888888;
+					float: left;
+					margin-bottom: 40px;
+					margin-top: 33px;
+					a{
+						color:white;
+						text-decoration: none;
+					}
+
+
+
+				}
+
+
+			}
+		}
+	}
+}

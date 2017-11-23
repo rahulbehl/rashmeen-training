@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Draft Order</title>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200">
+	
+	<link rel="stylesheet"  href="css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet"  href="css/bootstrap-datetimepicker-standalone.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/jquery.selectBoxIt.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/draft.css">
+	
+	
+</head>
+<body onload="draft()">
+	<header>
+		
+		<h1>POOL CREATOR</h1>
+		<form><label>POOL TYPE:</label>  <select class="abc">
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+			<option value="Head 2 Head">Head 2 Head </option>
+		</select></form>
+
+		
+
+	</header>
+	<div class="container">
+		<div class="pages col-sm-12">
+			<ul class="paging">
+				<li><a class="next-page" href="pool.html"  style="color:white;"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering"><i class="fa fa-check check1"></i></i>
+				</span>Setup</a></li>
+				<li><a class="next-page" href="team.html"  style="color:white;"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering"><i class="fa fa-check check1"></i></i>
+				</span>Teams</a></li>
+				<li><a class="next-page" href="pool.html"  style="color:white;"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering"><i class="fa fa-check check1"></i></i>
+				</span>Roster</a></li>
+				<li><a class="next-page" href="pool.html"  style="color:white;">  <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering"><i class="fa fa-check check1"></i></i>
+				</span>Scoring</a></li>
+				<li><a  class="next-page" href="draft.html"> <span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-inverse fa-stack-1x numbering">5</i>
+				</span>Draft</a></li>
+				
+			</ul>
+
+		</div>
+		<div class=" headings col-sm-12">
+			<h2 class="order-heading">DRAFT ORDER SELECTION </h2>
+
+			<h2 class="pool-heading">TEAMS IN POOL</h2>	
+		</div>
+		<div class="info col-sm-12">
+			<div class="numbers col-sm-1">
+				<ul>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">1</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">2</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">3</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">4</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">5</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">6</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">7</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">8</i>
+					</span></li><br>
+					<li><span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-inverse fa-stack-1x">9</i>
+					</span></li><br>
+
+				</ul>
+			</div>
+			
+			<div class="team-names col-sm-5">
+		
+				<ul id="sortable1" class="connectedSortable">
+					<li class="ui-state-default drag1">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag2">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag3">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag4">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag5">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag6">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag7">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag8">Drag team into position<i class="fa fa-arrows"></i></li>
+					<li class="ui-state-default drag9">Drag team into position<i class="fa fa-arrows"></i></li>
+				</ul>
+
+				
+			</div>
+			<div class="col-sm-1"></div>
+			
+			<div class="team-emails col-sm-5">
+				
+				<ul id="sortable2" class="connectedSortable">
+				<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+					<li class="ui-state-highlight drag"><i class="fa fa-arrows"></i></li>
+				</ul>
+				
+
+			</div>
+
+		</div>
+		<div class="move-next">	<button id="draft-page"><a href="team.html">SAVE AND DRAFT PLAYERS <i class="fa fa-chevron-right"></i></a> </button>
+		</div>
+
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.selectBoxIt.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="js/pool.js"></script>
+
+
+</body>
+</html>
+
