@@ -1,0 +1,126 @@
+header {
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 1px;
+  background: black; }
+  header h1 {
+    color: rgba(39, 0, 255, 0.95);
+    text-shadow: 2px 2px white;
+    font-size: 40px; }
+  header #enter-text {
+    width: 85%;
+    height: 49px;
+    border: 2px solid blue;
+    color: blue;
+    font-size: 25px;
+    box-shadow: 0px 0px 5px black; }
+  header #add-btn {
+    width: 5%;
+    height: 52px;
+    background: rgba(39, 0, 255, 0.95);
+    color: white;
+    margin-bottom: 3px;
+    font-size: 20px;
+    border-width: none;
+    font-weight: bold;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px black;
+    border-color: white; }
+
+.container {
+  width: 90%;
+  margin-top: 10px;
+  height: 504px;
+  padding-right: 0;
+  padding-left: 0; }
+  .container .first {
+    border: 3px inset rgba(39, 0, 255, 0.95);
+    padding: 0;
+    width: 50%;
+    height: 500px;
+    display: none; }
+    .container .first h2 {
+      text-align: center;
+      color: white;
+      text-style: inset;
+      text-shadow: 2px 2px black;
+      border-bottom: 2px solid rgba(39, 0, 255, 0.95);
+      margin-top: 0;
+      padding: 10px 0px;
+      background: rgba(39, 0, 255, 0.95); }
+    .container .first #check {
+      list-style: none;
+      padding-left: 0;
+      padding-top: 10px; }
+      .container .first #check #check-list {
+        padding-bottom: 73px;
+        padding-right: 12px;
+        padding-left: 12px; }
+        .container .first #check #check-list #tick-box {
+          float: left; }
+        .container .first #check #check-list #para-text {
+          border: 3px dotted rgba(0, 0, 255, 0.78);
+          padding-top: 7px;
+          border-radius: 3px;
+          margin-left: 15px;
+          float: left;
+          width: 461px;
+          height: 38px;
+          text-align: center;
+          margin-top: 2px; }
+        .container .first #check #check-list .edit-text {
+          border-radius: 3px;
+          margin-left: 21px;
+          text-align: center;
+          width: 434px;
+          height: 43px; }
+        .container .first #check #check-list #save {
+          padding: 0px 9px 0px 9px;
+          background: rgba(0, 0, 0, 0.7);
+          border-radius: 6px;
+          border-color: rgba(0, 0, 255, 0.78);
+          color: white;
+          font-weight: bold;
+          float: right; }
+          .container .first #check #check-list #save .fa-pencil-square-o {
+            font-size: 21px;
+            color: rgba(0, 0, 255, 0.78);
+            padding: 9px 0px 6px 1px;
+            font-weight: bold; }
+  .container .second {
+    display: none;
+    border: 3px inset rgba(39, 0, 255, 0.95);
+    border-left: none;
+    padding: 0;
+    width: 50%;
+    height: 500px; }
+    .container .second h2 {
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px black;
+      border-bottom: 2px solid rgba(39, 0, 255, 0.95);
+      margin-top: 0;
+      padding: 10px 0px;
+      background: rgba(39, 0, 255, 0.95); }
+      .container .second h2 .fa-window-close {
+        float: right;
+        padding-right: 10px; }
+    .container .second #check-two {
+      list-style: none;
+      padding-left: 0;
+      padding-top: 10px; }
+      .container .second #check-two #check-list {
+        padding-bottom: 27px;
+        padding-left: 24px; }
+        .container .second #check-two #check-list #tick-box {
+          display: none; }
+        .container .second #check-two #check-list #para-text {
+          border: 3px dotted rgba(0, 0, 255, 0.78);
+          padding-top: 7px;
+          border-radius: 4px;
+          margin-left: 32px;
+          width: 461px;
+          height: 38px;
+          text-align: center; }
+        .container .second #check-two #check-list #save {
+          display: none; }
